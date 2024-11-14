@@ -1,5 +1,4 @@
 # FRC Team 2408 Shrapnel Sergeants - 2025 Competition Code
-FRC 2408 main competition code for 2025
 
 ## Overview
 Primary competition repository for FRC Team 2408's 2025 season robot. This codebase contains all competition-ready code used during the 2025 FRC game season. All code in this repository should be thoroughly tested and competition-ready.
