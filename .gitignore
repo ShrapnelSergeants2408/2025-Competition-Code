@@ -176,3 +176,47 @@ logs/
 
 # Folder that has CTRE Phoenix Sim device config storage
 ctre_sim/
+
+#Values added based on Claude recommendations
+# WPILib simulation specific files
+simgui.json
+simgui-ds.json
+networktables.json
+networktables.json.bck
+networktables.ini
+
+# Glass window configuration
+glass.json
+
+# PathPlanner specific files
+src/main/deploy/pathplanner/*.path
+src/main/deploy/pathplanner/generatedJSON/*.json
+src/main/deploy/pathplanner/autos/*.auto
+
+# AdvantageScope specific files
+*.wpilog
+
+# Shuffleboard specific files
+shuffleboard.json
+shuffleboard/*.json
+
+# SysId specific files
+sysid_data*.json
+sysid/*.csv
+
+# FRC Dashboard specific
+dashboard.json
+
+# REV Hardware Client backup files
+*.bck
+*.bak
+
+# Local configuration overrides
+.env
+*.properties.local
+
+# VSCode workspace files
+*.code-workspace
+
+# Temporary build files
+temp/
